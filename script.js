@@ -1,14 +1,10 @@
-const jmeno = prompt("Zadej své křestní jméno bez diakritiky").toLowerCase();
+const jmeno = prompt("Zadej své křestní jméno bez diakritiky").trim().toLowerCase();
 
-const prijmeni = prompt("Zadej své příjmení bez diakritiky").toLowerCase();
+const prijmeni = prompt("Zadej své příjmení bez diakritiky").trim().toLowerCase();
 
 console.log(jmeno);
 
-console.log(jmeno.trim());
-
 console.log(prijmeni);
-
-console.log(prijmeni.trim());
 
 const castJmena = jmeno.slice(0, 3);
 
